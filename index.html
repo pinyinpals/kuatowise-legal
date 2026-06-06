@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kuatowise</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal: #7BBBBC;
+    --mint: #ABF0CF;
+    --cream: #EDE7DA;
+    --muted: #9aa3b8;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: radial-gradient(ellipse at 50% 0%, #1A2540 0%, #0A0E1F 80%);
+    color: var(--cream);
+    font-family: 'EB Garamond', Georgia, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 32px;
+  }
+  .card { max-width: 520px; }
+  .brand {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    margin: 0 0 6px;
+  }
+  .tag { color: var(--teal); font-size: 19px; font-style: italic; margin: 0 0 36px; }
+  p { font-size: 18px; line-height: 1.6; color: var(--cream); }
+  .links { margin-top: 32px; display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .links a {
+    color: #0A0E1F;
+    background: var(--teal);
+    text-decoration: none;
+    padding: 11px 22px;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .links a.ghost {
+    background: transparent;
+    color: var(--mint);
+    border: 1px solid rgba(171,240,207,0.4);
+  }
+  .contact { margin-top: 34px; color: var(--muted); font-size: 15px; }
+  .contact a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1 class="brand">kuatowise</h1>
+  <p class="tag">the examined life, daily</p>
+  <p>Kuatowise surfaces one idea from philosophy every day — a thought experiment, a thinker, a concept, or a school of thought. One curated card, with a cited source. Not a feed.</p>
+  <div class="links">
+    <a href="./privacy/">Privacy Policy</a>
+    <a class="ghost" href="./terms/">Terms of Service</a>
+  </div>
+  <p class="contact">Support &amp; questions:
+  <a href="mailto:pinyinpals@gmail.com">pinyinpals@gmail.com</a></p>
+</div>
+</body>
+</html>
